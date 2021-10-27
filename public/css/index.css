@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+#home div {
+  width: 100%;
+}
+
+.profile {
+  height: 45%;
+  background-color: #E0E0E0;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile h1 {
+  font-size: 27.5px;
+}
+
+.profile h1 {
+  margin-bottom: 0;
+}
+
+.profile p {
+  margin-top: 0.2em;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.profile img {
+  /* border: 2px solid cyan; */
+  height: 260px;
+  max-height: 100%;
+}
+
+.content {
+  height: 55%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content ul {
+  margin: 0;
+  padding: 0;
+  height: 240px;
+  width: 229px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content ul li {
+  list-style-type: none;
+  margin: 0.64em 0;
+}
+
+.content ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content ul:nth-of-type(2) {
+  /* background-color: red; */
+  margin: 0;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* ---------------------------  Typing animation------------------------------------------------------ */
+
+/* reference: https://codepen.io/denic/pen/GRoOxbM */
+
+.profile p{
+  /* border: 1px solid cyan; */
+  width: 100px;
+  animation: typing 1.6s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+/* ---------------------------------------------------------------------------------- */
+
+@media (min-width: 800px) {
+  #home  {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .profile, .content {
+    height: 100%;
+    width: 50%;
+  }
+
+
+  .profile h1 {
+    font-size: 55.5px;
+  }
+
+  .profile p{
+      font-size: 20px;
+      width: 130px;
+  }
+
+  .profile img {
+    /* border: 2px solid cyan; */
+    height: 360px;
+    max-height: 100%;
+  }
+
+  .content ul {
+    width: 429px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
