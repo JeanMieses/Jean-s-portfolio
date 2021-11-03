@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/projects', (req, res) => {
-    res.send('PROJECTS!');
+    res.render('projects');
 })
 
 
