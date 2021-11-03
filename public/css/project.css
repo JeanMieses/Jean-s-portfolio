@@ -79,9 +79,6 @@ h1 {
   margin: 1em 0;
 }
 
-
-
-
 @media (max-width: 955px) {
   h1 {
     text-align: center;
@@ -102,7 +99,7 @@ h1 {
     /* height: 520px; */
     border-bottom: 1px solid #E0E0E0;
     margin: 1em 0;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     
   }
 
@@ -115,5 +112,10 @@ h1 {
   color: #fff;
   margin: 2em 0;
 }
+
+.links {
+  border: none !important;
+}
+
 
 }
