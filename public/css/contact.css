@@ -8,6 +8,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #E0E0E0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
   }
 
   h1 {
@@ -142,7 +144,7 @@ body {
         text-transform: capitalize;
         font-size: 21px;
         margin-bottom: 1em;
-        width: 50%;
+        width: 65%;
       }
          
       .go-back {
@@ -169,6 +171,8 @@ body {
       
       form button {
           background-color: #AD1FEA;
+          font-weight: bold;
+          font-size: 16px;
           color: #fff;
           width: 28%;
           border: none;
