@@ -19,7 +19,7 @@ body {
     font-size: 21px;
     text-transform: capitalize;
   }
-    
+
   h2 {
     font-weight: bold;
     text-transform: capitalize;
@@ -28,7 +28,7 @@ body {
     margin: 0.3em 0;
     font-size: 17px;
   }
-  
+
   p {
     text-transform: capitalize;
     font-size: 14px;
@@ -36,7 +36,7 @@ body {
     margin-bottom: 0.8em;
     color: #647196;
   }
-  
+
   .container {
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@ body {
     border-radius: 10px;
     padding-bottom: 30px;
   }
-  
+
   .go-back {
     margin: 1em;
     align-self: flex-start;
@@ -56,19 +56,19 @@ body {
     border-bottom: 1px solid #647196;
     padding-bottom: 3px;
   }
-  
+
   form {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
-  
-  form div {    
+
+  form div {
     width: 86%;
     margin: 0.6em 0;
   }
-  
+
   form input, form select, form textarea {
     background-color: #F2F4FF;
     border: none;
@@ -76,11 +76,11 @@ body {
     width: 90%;
     color: #3A4374;
   }
-  
+
   form textarea {
     height: 70px;
   }
-  
+
   form button {
       background-color: #AD1FEA;
       color: #fff;
@@ -90,21 +90,21 @@ body {
       height: 30px;
       margin-top: 0.7em;
   }
-  
+
   .go-back:hover{
     transform: scale(1.2);
     transition: ease-in;
     transition-delay: 0.090s;
 
   }
-  
+
   .button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
-  
+
   .button span:after {
     content: '\00bb';
     position: absolute;
@@ -113,16 +113,16 @@ body {
     right: -20px;
     transition: 0.5s;
   }
-  
+
   .button:hover span {
     padding-right: 25px;
   }
-  
+
   .button:hover span:after {
     opacity: 1;
     right: 0;
   }
-  
+
 
   @media (min-width: 768px) {
     h1 {
@@ -134,28 +134,28 @@ body {
         padding-bottom: 30px;
       }
 
-      h2 {        
+      h2 {
         margin-bottom: 0;
         margin: 0.3em 0;
         font-size: 25px;
       }
-      
+
       p {
         text-transform: capitalize;
         font-size: 21px;
         margin-bottom: 1em;
         width: 65%;
       }
-         
+
       .go-back {
         font-size: 20px;
       }
-      
-      form div {    
+
+      form div {
         width: 86%;
         margin: 1em 0;
       }
-      
+
       form input, form select, form textarea {
         background-color: #F2F4FF;
         border: none;
@@ -164,11 +164,11 @@ body {
         color: #3A4374;
         font-size: 20px;
       }
-      
+
       form textarea {
         height: 120px;
       }
-      
+
       form button {
           background-color: #AD1FEA;
           font-weight: bold;
@@ -179,14 +179,13 @@ body {
           border-radius: 15px;
           height: 40px;
           margin-top: 1em;
-         
+
       }
-      
+
   }
 
   @media (min-width: 1166px) {
     .container {
         width: 50%;
-      
       }
   }

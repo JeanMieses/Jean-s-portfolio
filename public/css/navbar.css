@@ -1,0 +1,15 @@
+header {
+  color: rgba(255,255,255,.55);
+  margin: 0;
+  margin-bottom: 2em;
+  padding: 0;
+  width: 100%;
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26*/
+}
+
+
+header nav a {
+  text-transform: uppercase;
+}
