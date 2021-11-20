@@ -1,18 +1,25 @@
 body {
+    padding: 0;
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .wrapper {
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin: 0;
     padding: 0;
-    background-color: #E0E0E0;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Roboto', sans-serif;
+    padding-bottom: 70px;
+    /* overflow-y: auto; */
   }
 
   h1 {
+    padding-top: 1em;
     color: #3A4374;
     margin-bottom: 0.6em;
     text-align: center;
@@ -37,25 +44,16 @@ body {
     color: #647196;
   }
 
-  .container {
+  .wrapper .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #fff;
     width: 90%;
-    box-shadow: 5px 5px 13px #3A4374;
     border-radius: 10px;
     padding-bottom: 30px;
   }
 
-  .go-back {
-    margin: 1em;
-    align-self: flex-start;
-    color: #647196;
-    text-decoration: none;
-    border-bottom: 1px solid #647196;
-    padding-bottom: 3px;
-  }
 
   form {
     display: flex;
@@ -91,13 +89,6 @@ body {
       margin-top: 0.7em;
   }
 
-  .go-back:hover{
-    transform: scale(1.2);
-    transition: ease-in;
-    transition-delay: 0.090s;
-
-  }
-
   .button span {
     cursor: pointer;
     display: inline-block;
@@ -128,9 +119,9 @@ body {
     h1 {
         font-size: 34px;;
     }
-    .container {
+    .wrapper  .container {
         /* height: 870px; */
-        width: 60%;
+        width: 600px;
         padding-bottom: 30px;
       }
 
@@ -157,7 +148,6 @@ body {
       }
 
       form input, form select, form textarea {
-        background-color: #F2F4FF;
         border: none;
         height: 46px;
         width: 80%;
@@ -185,7 +175,7 @@ body {
   }
 
   @media (min-width: 1166px) {
-    .container {
-        width: 50%;
+    .wrapper .container {
+        width: 800px;
       }
   }

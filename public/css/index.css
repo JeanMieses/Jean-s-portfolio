@@ -30,7 +30,7 @@ body {
 }
 
 .profile h1 {
-  font-size: 27.5px;
+  font-size: 21.5px;
 }
 
 .profile h1 {
@@ -45,8 +45,8 @@ body {
 }
 
 .profile img {
-  /* border: 2px solid cyan; */
-  height: 260px;
+  height: 170px;
+  width: 130px;
   max-height: 100%;
 }
 
@@ -119,7 +119,7 @@ body {
 }
 /* ---------------------------------------------------------------------------------- */
 
-@media (min-width: 800px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   #home  {
     display: flex;
     flex-direction: row-reverse;
@@ -134,6 +134,32 @@ body {
 
 
   .profile h1 {
+    font-size: 25.5px;
+  }
+
+  .profile img {
+    height: 276px;
+    width: 206px;
+    max-height: 100%;
+  }
+
+}
+
+
+@media (min-width: 1025px) {
+  #home  {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .profile, .content {
+    height: 100%;
+    width: 50%;
+  }
+
+  .profile h1 {
     font-size: 55.5px;
   }
 
@@ -145,6 +171,7 @@ body {
   .profile img {
     /* border: 2px solid cyan; */
     height: 360px;
+    width: 280px;
     max-height: 100%;
   }
 

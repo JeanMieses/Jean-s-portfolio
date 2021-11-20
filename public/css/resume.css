@@ -18,7 +18,6 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 h1 {
@@ -46,7 +45,7 @@ h1 {
   }
 
   .resume {
-    width: 65%;
+    width: 600px;
     height: 75%;
   }
 
@@ -63,9 +62,7 @@ h1 {
   }
 
   .resume {
-    width: 60%;
+    width: 800px;
     height: 900px;
   }
 }
-
-/* ------------------------------------- */
